@@ -26,7 +26,7 @@ Objectif : Créer un prototype de la plateforme d'hébergement Réservia à part
 
 - [ ] Importer la maquette sur Figma et extraire les différents composants
 - [ ] Tester une page simple sur Github Pages
-- [ ] Développement section par section
+- [ ] Développement pour mobile vers desktop
 - [ ] Test W3C
 - [ ] Capture d'écran de la version complète a inclure pour README.md
 
