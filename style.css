@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 
 html,
 body {
@@ -44,11 +44,27 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-tabs {
+  display: none;
 }
 
 .menu-item {
   font-weight: 700;
   color: #0065fc;
+}
+
+.menu-item,
+.menu-tab-item {
+  padding: 30px;
 }
 
 /* Menu Tabs */
@@ -57,6 +73,7 @@ section {
 }
 
 .tab {
+  font-weight: 500;
   width: 50%;
   text-align: center;
   display: block;
@@ -122,12 +139,20 @@ section {
 
 /* Filters */
 
-.tags {
+.filters {
   display: flex;
   flex-wrap: wrap;
 }
 
-.tags a {
+.filters h3 {
+  display: block;
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.filters a {
+  display: inline-block;
   margin-right: 10px;
   margin-bottom: 15px;
 }
@@ -223,6 +248,9 @@ section {
 }
 
 /* Lodging */
+.lodging-grid {
+  display: grid;
+}
 
 .lodging .more {
   display: inline-block;
@@ -236,6 +264,7 @@ section {
 }
 
 .lodging-card .info {
+  background-color: #ffffff;
   padding: 20px;
 }
 
@@ -248,6 +277,10 @@ section {
 }
 
 /* Activities */
+
+.activities-grid {
+  display: grid;
+}
 
 .activities-card img {
   display: block;
@@ -272,4 +305,73 @@ section {
 
 /* Larger than mobile */
 @media (min-width: 640px) {
+  /* Nav */
+  .menu-tabs {
+    display: block;
+  }
+
+  .menu-tab-item {
+    font-weight: 500;
+  }
+
+  .menu-tab-item.active {
+    border-top: 3px solid #0065fc;
+    display: inline-block;
+    color: #0065fc;
+  }
+
+  /* Tabs */
+  .tabs {
+    display: none;
+  }
+
+  /* Search */
+  .search form {
+    max-width: 350px;
+  }
+
+  /* Activities and Lodging */
+  .activities-grid,
+  .lodging-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  /* Filters */
+  .filters {
+    display: flex;
+    align-items: center;
+  }
+
+  .filters h3 {
+    margin: 0 15px 15px 0;
+    width: auto;
+  }
+
+  /* Popular */
+  .popular {
+    margin: 20px;
+    border-radius: 25px;
+  }
+
+  .popular-card img {
+    width: 200px;
+  }
+
+  /* Lodging */
+  .lodging {
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    margin: 20px;
+  }
+
+  /* Footer */
+  .footer {
+    display: flex;
+  }
+
+  .foot {
+    width: 33.333%;
+  }
 }
