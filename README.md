@@ -6,7 +6,7 @@ Objectif : Créer un prototype de la plateforme d'hébergement Réservia à part
 
 - Champ de saisie pour les recherches
 - Cartes d’hébergement ou d’activité cliquables (liens vides)
-- Filtres animés au sélection/clique
+- Filtres animés au survol (hover)
 - Liens menu “Hébergements” et “Activités” ancrés
 
 ### Contraintes techniques

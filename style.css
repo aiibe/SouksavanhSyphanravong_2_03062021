@@ -23,7 +23,7 @@ li {
 }
 
 section {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 /* Font Awesome */
@@ -37,6 +37,41 @@ section {
 
 .fas.no-color {
   color: #d9d9f9;
+}
+
+/* Filters */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags a {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.tag .icon-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #deebff;
+  border-radius: 25px;
+  width: 45px;
+  height: 45px;
+}
+
+.tag h4 {
+  padding: 0px 20px 0px 10px;
+  margin: 0;
 }
 
 /* Announce */
