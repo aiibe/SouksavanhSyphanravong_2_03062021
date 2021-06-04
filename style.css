@@ -27,17 +27,42 @@ section {
 }
 
 /* Font Awesome */
-.fa-star {
+.fas {
   color: #0065fc;
 }
 
-.fa-star.no-color {
+.fas.default {
+  color: #000;
+}
+
+.fas.no-color {
   color: #d9d9f9;
+}
+
+/* Announce */
+.announce {
+  display: flex;
+  align-items: flex-start;
+}
+
+.announce p {
+  padding-left: 15px;
+  margin: 0;
 }
 
 /* Popular cards*/
 .popular {
   background-color: #f2f2f2;
+}
+
+.popular-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-header i {
+  font-size: 22px;
 }
 
 .popular-card {
