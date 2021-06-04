@@ -26,6 +26,15 @@ section {
   padding: 25px;
 }
 
+/* Font Awesome */
+.fa-star {
+  color: #0065fc;
+}
+
+.fa-star.no-color {
+  color: #d9d9f9;
+}
+
 /* Activities and Lodging cards */
 .activities-card,
 .lodging-card {
