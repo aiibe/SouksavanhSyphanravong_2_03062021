@@ -39,6 +39,59 @@ section {
   color: #d9d9f9;
 }
 
+/* Search */
+.search form {
+  display: flex;
+  border-radius: 15px;
+  /* overflow: hidden; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.search form input[type="search"] {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  font-size: inherit;
+  font-weight: bold;
+  min-width: 0;
+  flex-grow: 1;
+}
+
+.search form .icon-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  width: 45px;
+  height: 45px;
+  border-radius: 15px 0 0 15px;
+}
+
+.search form button {
+  cursor: pointer;
+  border: none;
+  background-color: #0065fc;
+  border-radius: 15px;
+}
+
+.search form button:focus {
+  outline-style: dashed;
+  outline-color: orange;
+  outline-width: 2px;
+}
+
+.search form button i {
+  width: 40px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.search form button span {
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+}
+
 /* Filters */
 
 .tags {
