@@ -82,7 +82,8 @@ section {
   padding: 10px 15px;
   font-size: 18px;
   font-weight: 700;
-  min-width: 0;
+  width: 210px;
+  flex-grow: 1;
 }
 
 .search form .icon-holder {
@@ -90,7 +91,7 @@ section {
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  width: 65px;
+  width: 45px;
   border-radius: 15px 0 0 15px;
 }
 
@@ -223,6 +224,10 @@ section {
 
 /* Lodging */
 
+.lodging .more {
+  display: inline-block;
+}
+
 .lodging-card img {
   display: block;
   width: 100%;
@@ -263,4 +268,8 @@ section {
 /* Footer */
 .footer {
   background-color: #f2f2f2;
+}
+
+/* Larger than mobile */
+@media (min-width: 640px) {
 }
