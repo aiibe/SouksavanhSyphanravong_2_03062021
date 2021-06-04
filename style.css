@@ -39,19 +39,36 @@ section {
   color: #d9d9f9;
 }
 
+/* Menu Tabs */
+.tabs {
+  display: flex;
+}
+
+.tab {
+  width: 50%;
+  text-align: center;
+  display: block;
+  padding: 15px 0;
+  border-bottom: 3px solid #f2f2f2;
+}
+
+.tab.active {
+  color: #0065fc;
+  border-bottom: 3px solid #0065fc;
+}
+
 /* Search */
 .search form {
   display: flex;
   border-radius: 15px;
-  /* overflow: hidden; */
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .search form input[type="search"] {
   border: none;
   outline: 0;
-  padding: 10px;
-  font-size: inherit;
+  padding: 10px 15px;
+  font-size: 18px;
   font-weight: bold;
   min-width: 0;
   flex-grow: 1;
