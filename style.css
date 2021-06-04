@@ -39,6 +39,18 @@ section {
   color: #d9d9f9;
 }
 
+/* Nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-item {
+  font-weight: 700;
+  color: #0065fc;
+}
+
 /* Menu Tabs */
 .tabs {
   display: flex;
@@ -69,9 +81,8 @@ section {
   outline: 0;
   padding: 10px 15px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   min-width: 0;
-  flex-grow: 1;
 }
 
 .search form .icon-holder {
@@ -79,8 +90,7 @@ section {
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  width: 45px;
-  height: 45px;
+  width: 65px;
   border-radius: 15px 0 0 15px;
 }
 
