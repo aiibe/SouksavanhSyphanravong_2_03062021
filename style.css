@@ -189,7 +189,7 @@ section {
 }
 
 .announce p {
-  padding-left: 15px;
+  padding-left: 10px;
   margin: 0;
 }
 
@@ -197,7 +197,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25px;
+  flex: 0 0 25px;
   height: 25px;
   border: 1px solid #d9d9f9;
   border-radius: 25px;
