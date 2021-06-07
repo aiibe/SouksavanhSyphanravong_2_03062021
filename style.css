@@ -386,6 +386,7 @@ section {
 
   .popular-card img {
     width: 200px;
+    height: 155px;
   }
 
   /* Lodging */
@@ -402,5 +403,28 @@ section {
 
   .foot {
     width: 33.333%;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 1280px) {
+  /* Hosting */
+  .hosting {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .hosting .lodging {
+    flex: 0 0 60%;
+  }
+
+  .hosting .lodging-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* Popular */
+  .popular-card img {
+    width: 170px;
   }
 }
