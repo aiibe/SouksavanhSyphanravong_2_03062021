@@ -135,6 +135,8 @@ section {
   color: #ffffff;
   font-family: inherit;
   font-weight: 700;
+  text-transform: uppercase;
+  display: none;
 }
 
 /* Filters */
@@ -327,7 +329,20 @@ section {
 
   /* Search */
   .search form {
-    max-width: 350px;
+    max-width: 400px;
+  }
+
+  .search form button {
+    border-radius: 0 15px 15px 0;
+  }
+
+  .search form button i {
+    display: none;
+  }
+
+  .search form button span {
+    display: block;
+    padding: 0 15px 0 15px;
   }
 
   /* Activities and Lodging */
