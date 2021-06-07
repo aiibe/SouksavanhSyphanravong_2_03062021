@@ -185,12 +185,26 @@ section {
 /* Announce */
 .announce {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .announce p {
   padding-left: 15px;
   margin: 0;
+}
+
+.announce .icon-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #d9d9f9;
+  border-radius: 25px;
+}
+
+.announce .icon-holder i {
+  font-size: 12px;
 }
 
 /* Popular cards*/
