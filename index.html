@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="nav">
+    <section class="container nav">
       <div class="brand">
         <a href="/">
           <img src="/images/Reservia.svg" alt="logo Reservia" />
@@ -41,12 +41,12 @@
       <a class="tab" href="#activities">Activités</a>
     </div>
     <section class="hero">
-      <div class="header">
+      <div class="container header">
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre ville ou en pleine nature</p>
       </div>
     </section>
-    <section class="search">
+    <section class="container search">
       <form action="#">
         <div class="icon-holder">
           <i class="fas fa-map-marker-alt default"></i>
@@ -58,7 +58,7 @@
         </button>
       </form>
     </section>
-    <section class="filters">
+    <section class="container filters">
       <h3>Filtres</h3>
       <a href="#">
         <div class="tag">
@@ -94,13 +94,13 @@
         </div>
       </a>
     </section>
-    <section class="announce">
+    <section class="container announce">
       <div class="icon-holder">
         <i class="fas fa-info"></i>
       </div>
       <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </section>
-    <div class="hosting">
+    <section class="container hosting">
       <section class="popular">
         <div class="popular-header">
           <h2>Les plus populaires</h2>
@@ -297,11 +297,11 @@
         </div>
         <a class="more" href="#"><h3>Afficher plus</h3></a>
       </section>
-    </div>
-    <section class="activities">
+    </section>
+    <section class="container activities">
       <h2 id="activities">Activités à Marseille</h2>
       <div class="activities-grid">
-        <div class="activities-card">
+        <div class="activities-card cell-1">
           <a href="#">
             <img src="/images/reno-laithienne.jpg" alt="vieux port" />
             <div class="info">
@@ -309,7 +309,7 @@
             </div>
           </a>
         </div>
-        <div class="activities-card">
+        <div class="activities-card cell-2">
           <a href="#">
             <img
               src="/images/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
@@ -320,7 +320,7 @@
             </div>
           </a>
         </div>
-        <div class="activities-card">
+        <div class="activities-card cell-3">
           <a href="#">
             <img
               src="/images/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
@@ -331,7 +331,7 @@
             </div>
           </a>
         </div>
-        <div class="activities-card">
+        <div class="activities-card cell-4">
           <a href="#">
             <img
               src="/images/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
@@ -342,7 +342,7 @@
             </div>
           </a>
         </div>
-        <div class="activities-card">
+        <div class="activities-card cell-5">
           <a href="#">
             <img
               src="/images/florian-wehde-xW9e8gdotxI-unsplash.jpg"
@@ -353,7 +353,7 @@
             </div>
           </a>
         </div>
-        <div class="activities-card">
+        <div class="activities-card cell-6">
           <a href="#">
             <img
               src="/images/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
@@ -366,29 +366,31 @@
         </div>
       </div>
     </section>
-    <section class="footer">
-      <div class="foot">
-        <h3>A propos</h3>
-        <ul>
-          <li><a href="#">Fonctionnement du site</a></li>
-          <li><a href="#">Conditions générales de vente</a></li>
-          <li><a href="#">Données et confidentialité</a></li>
-        </ul>
-      </div>
-      <div class="foot">
-        <h3>Nos hébergements</h3>
-        <ul>
-          <li><a href="#">Charte qualité</a></li>
-          <li><a href="#">Soumettre votre hôtel</a></li>
-        </ul>
-      </div>
-      <div class="foot">
-        <h3>Assistance</h3>
-        <ul>
-          <li><a href="#">Centre d'aide</a></li>
-          <li><a href="#">Nous contacter</a></li>
-        </ul>
-      </div>
-    </section>
+    <footer>
+      <section class="container footer">
+        <div class="foot">
+          <h3>A propos</h3>
+          <ul>
+            <li><a href="#">Fonctionnement du site</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="#">Données et confidentialité</a></li>
+          </ul>
+        </div>
+        <div class="foot">
+          <h3>Nos hébergements</h3>
+          <ul>
+            <li><a href="#">Charte qualité</a></li>
+            <li><a href="#">Soumettre votre hôtel</a></li>
+          </ul>
+        </div>
+        <div class="foot">
+          <h3>Assistance</h3>
+          <ul>
+            <li><a href="#">Centre d'aide</a></li>
+            <li><a href="#">Nous contacter</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
