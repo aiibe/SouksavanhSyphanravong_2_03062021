@@ -223,11 +223,13 @@ img {
 
 .hosting .popular,
 .hosting .lodging {
-  padding: 20px;
+  padding: 25px;
 }
 
 /* Popular cards*/
 .popular {
+  display: flex;
+  flex-direction: column;
   background-color: #f2f2f2;
 }
 
@@ -239,6 +241,13 @@ img {
 
 .popular__header i {
   font-size: 22px;
+}
+
+.popular__cards {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .popular__card {
@@ -402,11 +411,6 @@ footer {
     border-radius: 25px;
   }
 
-  .popular__card__thumbnail {
-    width: 200px;
-    height: 155px;
-  }
-
   /* Lodging */
   .lodging {
     background-color: #f2f2f2;
@@ -437,7 +441,7 @@ footer {
   }
 
   .hosting .lodging {
-    flex: 0 0 60%;
+    flex: 0 0 65%;
   }
 
   .hosting .lodging-grid {
@@ -457,7 +461,7 @@ footer {
 
   /* Popular */
   .popular__card__thumbnail {
-    width: 170px;
+    height: 15vh;
   }
 
   /* Activities */
