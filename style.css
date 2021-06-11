@@ -270,7 +270,7 @@ img {
 
 .popular__card__thumbnail {
   width: 40%;
-  height: 20vh;
+  height: 135px;
 }
 
 .popular__card__info {
@@ -496,11 +496,8 @@ footer {
     margin-left: 40px;
   }
 
-  .popular__card__thumbnail {
-    height: 15vh;
-  }
-
   /* Activities */
+
   .activities__grid {
     display: flex;
     margin-right: -20px;
