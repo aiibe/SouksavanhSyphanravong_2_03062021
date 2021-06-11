@@ -22,16 +22,18 @@
         </a>
       </div>
       <div class="menu">
-        <div class="menu-tabs">
-          <a class="menu-tab-item active" href="#lodging">Hébergements</a>
-          <a class="menu-tab-item" href="#activities">Activités</a>
+        <div class="menu__tabs">
+          <a class="menu__tab__item menu__tab__item--active" href="#lodging"
+            >Hébergements</a
+          >
+          <a class="menu__tab__item" href="#activities">Activités</a>
         </div>
-        <a class="menu-item" href="#">S'inscrire</a>
+        <a class="menu__item" href="#">S'inscrire</a>
       </div>
     </section>
     <div class="tabs">
-      <a class="tab active" href="#lodging">Hébergements</a>
-      <a class="tab" href="#activities">Activités</a>
+      <a class="tabs__item tabs__item--active" href="#lodging">Hébergements</a>
+      <a class="tabs__item" href="#activities">Activités</a>
     </div>
     <section class="hero">
       <div class="container header">
@@ -40,12 +42,16 @@
       </div>
     </section>
     <section class="container search">
-      <form action="#">
-        <div class="icon-holder">
+      <form action="#" class="search__form">
+        <div class="search__form__marker">
           <i class="fas fa-map-marker-alt default"></i>
         </div>
-        <input type="search" value="Marseille, France" />
-        <button type="submit">
+        <input
+          class="search__form__input"
+          type="search"
+          value="Marseille, France"
+        />
+        <button class="search__form__submit" type="submit">
           <i class="fas fa-search"></i>
           <span>Rechercher</span>
         </button>
@@ -54,33 +60,32 @@
     <section class="container filters">
       <h3>Filtres</h3>
       <a href="#">
-        <div class="tag">
-          <div class="icon-holder">
+        <div class="filters__tag">
+          <div class="filters__tag__icon">
             <i class="fas fa-money-bill-wave"></i>
           </div>
           <h4>Économique</h4>
         </div>
       </a>
       <a href="#">
-        <div class="tag">
-          <div class="icon-holder">
+        <div class="filters__tag">
+          <div class="filters__tag__icon">
             <i class="fas fa-child"></i>
           </div>
           <h4>Familial</h4>
         </div>
       </a>
-
       <a href="#">
-        <div class="tag">
-          <div class="icon-holder">
+        <div class="filters__tag">
+          <div class="filters__tag__icon">
             <i class="fas fa-heart"></i>
           </div>
           <h4>Romantique</h4>
         </div>
       </a>
       <a href="#">
-        <div class="tag">
-          <div class="icon-holder">
+        <div class="filters__tag">
+          <div class="filters__tag__icon">
             <i class="fas fa-dog"></i>
           </div>
           <h4>Animaux autorisés</h4>
@@ -88,7 +93,7 @@
       </a>
     </section>
     <section class="container announce">
-      <div class="icon-holder">
+      <div class="announce__icon">
         <i class="fas fa-info"></i>
       </div>
       <p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -387,7 +392,7 @@
     </section>
     <footer>
       <section class="container footer">
-        <div class="foot">
+        <div class="footer__column">
           <h3>A propos</h3>
           <ul>
             <li><a href="#">Fonctionnement du site</a></li>
@@ -395,14 +400,14 @@
             <li><a href="#">Données et confidentialité</a></li>
           </ul>
         </div>
-        <div class="foot">
+        <div class="footer__column">
           <h3>Nos hébergements</h3>
           <ul>
             <li><a href="#">Charte qualité</a></li>
             <li><a href="#">Soumettre votre hôtel</a></li>
           </ul>
         </div>
-        <div class="foot">
+        <div class="footer__column">
           <h3>Assistance</h3>
           <ul>
             <li><a href="#">Centre d'aide</a></li>
