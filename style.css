@@ -673,6 +673,10 @@ footer {
     width: 25%;
   }
 
+  .popular__card__thumbnail {
+    height: 160px;
+  }
+
   /* Activities */
 
   .activities__grid {
