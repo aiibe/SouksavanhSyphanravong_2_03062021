@@ -658,6 +658,7 @@ footer {
   .popular,
   .lodging {
     margin: 0;
+    padding: 40px;
   }
 
   /* Lodging */
