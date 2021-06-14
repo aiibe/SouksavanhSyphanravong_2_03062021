@@ -354,6 +354,15 @@ img {
   border: 5px solid #ffffff;
   overflow: hidden;
   margin-bottom: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.popular__card:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .popular__card__thumbnail {
@@ -392,6 +401,15 @@ img {
   border-radius: 25px;
   overflow: hidden;
   margin: 0 0 20px 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.lodging__card:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .lodging__card__thumbnail {
@@ -424,6 +442,15 @@ img {
   overflow: hidden;
   margin: 0 0 20px 0;
   display: block;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.activities__card:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .activities__card__thumbnail {
