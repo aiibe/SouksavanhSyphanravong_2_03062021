@@ -531,6 +531,10 @@ footer {
 
   /* Activities */
 
+  .activities__grid {
+    margin-right: -20px;
+  }
+
   .activities__block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -622,7 +626,6 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: -20px;
   }
 
   .activities__block {
