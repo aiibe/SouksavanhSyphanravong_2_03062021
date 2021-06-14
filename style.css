@@ -453,6 +453,7 @@ footer {
     font-weight: 500;
   }
 
+  .menu__tab__item:hover,
   .menu__tab__item--active {
     border-top: 3px solid #0065fc;
     display: inline-block;
