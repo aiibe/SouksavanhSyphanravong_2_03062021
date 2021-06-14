@@ -617,6 +617,7 @@ footer {
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
+    gap: 30px;
   }
 
   /* Hosting */
@@ -626,14 +627,16 @@ footer {
   }
 
   /* Lodging */
+  .lodging {
+    width: 75%;
+  }
   .lodging__cards a {
     width: 33.333%;
   }
 
   /* Popular */
-
   .popular {
-    margin-left: 40px;
+    width: 25%;
   }
 
   /* Activities */
