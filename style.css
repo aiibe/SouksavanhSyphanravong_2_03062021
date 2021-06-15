@@ -588,7 +588,6 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 45px;
     margin-bottom: 45px;
   }
 
@@ -596,7 +595,10 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 45px;
+  }
+
+  .activities__block:first-child {
+    margin: 0 0 40px 0;
   }
 
   .activities__column__1,
@@ -608,17 +610,12 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 50%;
-    gap: 45px;
+    flex: 50%;
   }
 
   .activities__column__1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+    margin-right: 40px;
   }
 
   .activities__column__1 > .activities__card {
@@ -638,6 +635,10 @@ footer {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
+  }
+
+  .activities__column__2 > .activities__card:first-child {
+    margin-bottom: 40px;
   }
 
   .activities__card {
@@ -667,7 +668,6 @@ footer {
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
-    gap: 40px;
   }
 
   /* Hosting */
@@ -679,7 +679,7 @@ footer {
 
   /* Lodging */
   .lodging {
-    width: 70%;
+    flex: 70%;
   }
 
   .lodging__card__thumbnail {
@@ -708,7 +708,8 @@ footer {
 
   /* Popular */
   .popular {
-    width: 30%;
+    flex: 30%;
+    margin: 0 0 0 40px;
   }
 
   .popular__card {
@@ -729,10 +730,18 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    gap: 45px;
   }
 
   .activities__block {
-    width: 50%;
+    flex: 50%;
+  }
+
+  .activities__column__1,
+  .activities__block:first-child {
+    margin: 0 40px 0 0;
+  }
+
+  .activities__column__2 > .activities__card:first-child {
+    margin: 0 0 40px 0;
   }
 }
