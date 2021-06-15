@@ -463,7 +463,7 @@ img {
 }
 
 .activities__card__thumbnail {
-  height: 135px;
+  height: 20vh;
 }
 
 .activities__card__info {
@@ -643,6 +643,10 @@ footer {
 
   .activities__card {
     margin: 0;
+  }
+
+  .activities__card__thumbnail {
+    height: 16vh;
   }
 
   /* Footer */
