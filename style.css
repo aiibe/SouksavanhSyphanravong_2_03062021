@@ -559,7 +559,10 @@ footer {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -30px;
+  }
+
+  .lodging__container:nth-child(2n) > div {
+    margin: 0 0 30px 15px;
   }
 
   .lodging__cards a {
@@ -568,7 +571,7 @@ footer {
 
   .lodging__card {
     border: 5px solid #ffffff;
-    margin: 0 30px 30px 0;
+    margin: 0 15px 30px 0;
   }
 
   /* Activities */
@@ -673,8 +676,29 @@ footer {
   .lodging {
     width: 70%;
   }
+
+  .lodging__card__thumbnail {
+    height: 12vh;
+  }
+
+  .lodging__card__info {
+    padding: 10px;
+  }
+
   .lodging__cards a {
     width: 33.333%;
+  }
+
+  .lodging__container:nth-child(3n - 2) > div {
+    margin: 0 15px 30px 0;
+  }
+
+  .lodging__container:nth-child(3n - 1) > div {
+    margin: 0 15px 30px 15px;
+  }
+
+  .lodging__container:nth-child(3n) > div {
+    margin: 0 0 30px 15px;
   }
 
   /* Popular */
