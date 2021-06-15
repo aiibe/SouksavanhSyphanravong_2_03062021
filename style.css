@@ -183,9 +183,8 @@ nav {
 
 .filters h3 {
   display: block;
-  width: 100%;
-  margin-right: 10px;
-  margin-bottom: 15px;
+  flex: 100%;
+  margin: 0 0 15px 0px;
 }
 
 .filters a {
@@ -539,7 +538,7 @@ footer {
 
   .filters h3 {
     margin: 0 15px 15px 0;
-    width: auto;
+    flex: 0;
   }
 
   /* Popular */
@@ -573,7 +572,7 @@ footer {
   }
 
   .lodging__cards a {
-    width: 50%;
+    flex: 50%;
   }
 
   .lodging__card {
@@ -659,7 +658,7 @@ footer {
   }
 
   .footer__column {
-    width: 33.333%;
+    flex: 33.333%;
   }
 }
 
@@ -708,7 +707,7 @@ footer {
   }
 
   .lodging__cards a {
-    width: 33.333%;
+    flex: 33.333%;
   }
 
   .lodging__container:nth-child(3n - 2) > div {
