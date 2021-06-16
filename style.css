@@ -158,18 +158,12 @@ nav {
   outline-width: 2px;
 }
 
-.search__form__submit i {
-  width: 40px;
+.search__form__submit::after {
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   color: #ffffff;
   font-size: 18px;
-}
-
-.search__form__submit span {
-  color: #ffffff;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  display: none;
 }
 
 /* Filters */
@@ -518,13 +512,13 @@ footer {
     border-radius: 0 15px 15px 0;
   }
 
-  .search__form__submit i {
-    display: none;
-  }
-
-  .search__form__submit span {
-    display: block;
-    padding: 0 15px 0 15px;
+  .search__form__submit::after {
+    content: "Rechercher";
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
   }
 
   /* Filters */
