@@ -30,6 +30,10 @@ li {
   margin-bottom: 10px;
 }
 
+figure {
+  margin: 0;
+}
+
 img {
   display: block;
   width: 100%;
