@@ -153,6 +153,10 @@ nav {
   background-color: #0065fc;
   border-radius: 15px;
   flex: 1 0 15%;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0;
+  padding: 10px;
 }
 
 .search__form__submit:focus {
@@ -161,7 +165,7 @@ nav {
   outline-width: 2px;
 }
 
-.search__form__submit::after {
+.search__form__submit::before {
   content: "\f002";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -446,16 +450,12 @@ footer {
   }
 
   .search__form__submit {
+    font-size: 16px;
     border-radius: 0 15px 15px 0;
   }
 
-  .search__form__submit::after {
-    content: "Rechercher";
-    color: #ffffff;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    padding: 10px;
+  .search__form__submit::before {
+    content: "";
   }
 
   /* Filters */
