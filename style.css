@@ -204,6 +204,7 @@ nav {
 
 .filters__tag:hover {
   background-color: #deebff;
+  box-shadow: 0 0 0 2px #deebff inset;
 }
 
 .filters__tag__icon {
